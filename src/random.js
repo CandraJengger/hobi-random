@@ -1,4 +1,4 @@
-const hobbies = require("./data/hobbies.json");
+const hobbies = require('./data/hobbies.json');
 
 function random() {
   const randomNum = Math.floor(Math.random() * Math.floor(hobbies.length));
