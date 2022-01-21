@@ -8,7 +8,10 @@
     "lint:fix": "eslint src/*.js --fix",
     "format": "prettier src/*.js --write",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:staged": "lint-staged",
+    "prepare": "husky install"
+
   },
   "keywords": [
     "faker",
@@ -19,7 +22,7 @@
   "devDependencies": {
     "eslint": "^8.7.0",
     "eslint-plugin-jest": "^25.7.0",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "jest-cli": "^27.4.7",
     "lint-staged": "^12.2.2",
     "prettier": "^2.5.1"
@@ -43,8 +46,7 @@
   "lint-staged": {
     "*.js": [
       "npm run lint:fix",
-      "npm run format",
-      "git add"
+      "npm run format"
     ]
   }
 }
