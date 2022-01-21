@@ -18,7 +18,10 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.7.0",
+    "eslint-plugin-jest": "^25.7.0",
+    "husky": "^7.0.4",
     "jest-cli": "^27.4.7",
+    "lint-staged": "^12.2.2",
     "prettier": "^2.5.1"
   },
   "jest": {
@@ -31,5 +34,17 @@
         "statements": 100
       }
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint:fix",
+      "npm run format",
+      "git add"
+    ]
   }
 }
