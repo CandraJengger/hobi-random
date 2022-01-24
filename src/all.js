@@ -1,7 +1,7 @@
-const hobbies = require('./data/hobbies.json');
+import hobbies from './data/hobbies.json';
 
 function all() {
   return hobbies;
 }
 
-module.exports = all;
+export default all;

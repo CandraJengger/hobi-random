@@ -1,4 +1,4 @@
-const hobbies = require('./data/hobbies.json');
+import hobbies from './data/hobbies.json';
 
 function random() {
   const randomNum = Math.floor(Math.random() * Math.floor(hobbies.length));
@@ -6,4 +6,4 @@ function random() {
   return hobbies[randomNum];
 }
 
-module.exports = random;
+export default random;

@@ -1,7 +1,4 @@
-const all = require('./all');
-const random = require('./random');
+import all from './all';
+import random from './random';
 
-module.exports = {
-  all,
-  random
-};
+export {all, random};

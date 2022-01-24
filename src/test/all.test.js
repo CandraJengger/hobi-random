@@ -1,4 +1,4 @@
-const all = require('../all');
+import all from '../all';
 
 test('make sure all item in array is string ', () => {
   const actual = all().every((currentValue) => {

@@ -1,5 +1,5 @@
-const random = require('../random');
-const all = require('../all');
+import random from '../random';
+import all from '../all';
 
 test('check if random name is exist in names.json ', () => {
   const hoby = random();
