@@ -1,6 +1,6 @@
 {
   "name": "hobi-random",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pustaka kecil yang dapat membantu kamu mendapatkan hobi acak",
   "main": "dist/index.js",
   "scripts": {
