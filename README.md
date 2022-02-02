@@ -54,3 +54,9 @@ console.log(name)
 ```
 
 ## Cara berkontribusi
+
+* Fork repositori ini
+* clone repositori
+* Lakukan perubahan atau perbaikan
+* Buat test case
+* Push dan buat Pull request
