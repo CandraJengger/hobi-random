@@ -1,5 +1,4 @@
-<img src="https://img.shields.io/codecov/c/github/CandraJengger/hobi-random">
-<img src="https://img.shields.io/github/repo-size/CandraJengger/hobi-random">
+<img src="https://img.shields.io/codecov/c/github/CandraJengger/hobi-random"> <img src="https://img.shields.io/github/repo-size/CandraJengger/hobi-random">
 
 # hobi-random
 

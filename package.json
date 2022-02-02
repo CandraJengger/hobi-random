@@ -12,7 +12,9 @@
     "test:staged": "lint-staged",
     "prepare": "husky install",
     "prebuild": "rimraf dist",
-    "build": "babel src --out-dir dist --ignore src/test --copy-files",
+    "build:node": "babel src --out-dir dist --ignore src/test --copy-files",
+    "build:browser": "rollup -c",
+    "build": "npm run build:node && npm run build:browser",
     "report-cov": "cat ./coverage/lcov.info | codecov"
   },
   "keywords": [
